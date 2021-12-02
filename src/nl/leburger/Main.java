@@ -14,7 +14,7 @@ public class Main {
         ArrayList<Integer> numbers = new ArrayList<Integer>();
 
         try {
-            File myObj = new File("/Users/leanderburger/Development/AdventOfCode/src/nl/leburger/Day1Ex1Input.txt");
+            File myObj = new File("/Users/leanderburger/Development/AdventOfCode/src/nl/leburger/resources/Day1Ex1Input.txt");
             Scanner myReader = new Scanner(myObj);
             while (myReader.hasNextLine()) {
                 String data = myReader.nextLine();
